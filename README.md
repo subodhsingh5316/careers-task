@@ -8,6 +8,8 @@ The minimum sum is 1+3+5+7=16  and the maximum sum is 3+5+7+9 = 24. The fu
 = 16 and max = 24"
 
 Solution:-
+
+
 function minMaxSum(array) {
     var sum = array[0],
         min = array[0],
