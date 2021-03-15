@@ -1,3 +1,5 @@
+### Assignment careers
+
 3. Write a JavaScript program satisfying the following criteria:
 Given five positive integers, find the minimum and maximum values that can be calculated by 
 summing exactly four of the five integers. Then print the respective minimum and maximum values 
@@ -9,7 +11,7 @@ The minimum sum is 1+3+5+7=16  and the maximum sum is 3+5+7+9 = 24. The fu
 
 Solution:-
 
-
+```
 function minMaxSum(array) {
     var sum = array[0],
         min = array[0],
@@ -25,17 +27,21 @@ function minMaxSum(array) {
 }
 
 console.log(minMaxSum([1, 3, 5, 7, 9]))
-
+```
 Carrer-App
 
-Installtion
+### Installtion
 
 clone repo
-
+```
 git clone: https://github.com/subodhsingh5316/careers-task.git
+```
 Go app directory install dependancy
-
+```
 npm install
-run app
 
+```
+run app
+```
 npm start
+```
